@@ -349,7 +349,7 @@ def login_kamu():
 
         exit()
 		
-        elif loginpil == '2':
+            elif loginpil == '2':
 
                 login()
 
