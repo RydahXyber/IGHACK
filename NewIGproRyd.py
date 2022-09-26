@@ -255,7 +255,7 @@ os.system('clear')
 
 
 
-def cekAPI(cookie):
+#def cekAPI(cookie):
 
     user=open('.username','r').read()
 
