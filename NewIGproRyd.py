@@ -321,9 +321,8 @@ def login_kamu():
 
                 kuki=open('.kukis.log','w').write(cok)
 
-                user=open('.username','w').write(us)
-
-#               os.system('python run.py')
+                user=open('.username','w').write(us);time.sleep(1)time.sleep(1)
+exit()          exit()
 
             elif loginpil == '2':
 
