@@ -323,7 +323,7 @@ def login_kamu():
 
                 user=open('.username','w').write(us)
 
-                os.system('python run.py')
+#               os.system('python run.py')
 
             elif loginpil == '2':
 
