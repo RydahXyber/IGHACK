@@ -119,11 +119,11 @@ prox=open('.prox.txt','r').read().splitlines()
 
 try:ugen = open('ua.txt','r').read().splitlines()
 
-except:ugen = ['NokiaC3-00/5.0 (07.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+','Mozilla/5.0 (Linux; Android 6.0; I7D Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36','DS podcast/1.0.5 (be.standaard.audio; build:6; Android 10; Sdk:29; Manufacturer:HUAWEI; Model: MAR-LX1B) OkHttp/4.9.1']
+except:ugen = ["Mozilla/5.0 (Linux; Android 5.0.2; ASUS_Z00RD Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/47.0.2526.100 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 5.0.2; ASUS_Z00LD Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.2311.138 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 5.0.2; ASUS_Z00RD Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.2311.138 Mobile Safari/537.36"]
 
 try:ugen2 = open('ua.txt','r').read().splitlines()
 
-except:ugen2 = ['Mozilla/5.0 (Series40; NokiaC2-00/03.82; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/4.0.1.0.1','Mozilla/5.0 (Linux; Android 8.1.0; BBB100-1 Build/OPM1.171019.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.71 Mobile Safari/537.36','Opera/9.80 (SpreadTrum; Opera Mini/4.4.33961/191.273; U; en) Presto/2.12.423 Version/12.16']
+except:ugen2 = ["Mozilla/5.0 (Linux; Android 5.1.1; OPPO A30 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.2311.138 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 10; CPH2137) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 11; CPH2321) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.125 Mobile Safari/537.36"]
 
 
 
