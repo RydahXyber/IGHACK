@@ -372,7 +372,7 @@ def login():
         cookie={'cookie':x.get('cookie')}
 
         print(f'\n{H}>{C} Login berhasil');time.sleep(1)
-		exit()
+        exit()
 
     elif x.get('status')=='checkpoint':
 
