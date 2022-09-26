@@ -371,9 +371,8 @@ def login():
 
         cookie={'cookie':x.get('cookie')}
 
-        print(f'\n{H}>{C} Login berhasil')
-
-        os.system('python run.py')
+        print(f'\n{H}>{C} Login berhasil');time.sleep(1)
+		exit()
 
     elif x.get('status')=='checkpoint':
 
