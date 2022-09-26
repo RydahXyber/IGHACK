@@ -347,15 +347,15 @@ def login_kamu():
 
 #          os.remove('.username')
 		
-        elif loginpil == '2':
+          elif loginpil == '2':
 
                 login()
 
-        ex,user=cekAPI(kuki)
+      ex,user=cekAPI(kuki)
 
-        cookie={'cookie':kuki}
+      cookie={'cookie':kuki}
 
-        instagram(ex,user,cookie).menu()
+      instagram(ex,user,cookie).menu()
 
 #	else:
 
