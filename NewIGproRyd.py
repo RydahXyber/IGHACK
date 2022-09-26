@@ -257,33 +257,33 @@ os.system('clear')
 
 #def cekAPI(cookie):
 
-    user=open('.username','r').read()
+#   user=open('.username','r').read()
 
-    try:
+#    try:
 
-        c=s.get("https://i.instagram.com/api/v1/users/web_profile_info/"?username=(user),cookies={'cookie':cookie},headers={"user-agent":USN,"x-ig-app-id":'936619743392459'})
+#        c=s.get("https://i.instagram.com/api/v1/users/web_profile_info/"?username=(user),cookies={'cookie':cookie},headers={"user-agent":USN,"x-ig-app-id":'936619743392459'})
 
-        i=c.json()["data"]["user"]
+#        i=c.json()["data"]["user"]
 
-        nama=i["full_name"]
+#       nama=i["full_name"]
 
-        followers=i["edge_followed_by"]["count"]
+#        followers=i["edge_followed_by"]["count"]
 
-        following=i["edge_follow"]["count"]
+#        following=i["edge_follow"]["count"]
 
-        external.append(f'{nama}|{followers}|{following}')
+#        external.append(f'{nama}|{followers}|{following}')
 
-    except  (ValueError,KeyError):
+#    except  (ValueError,KeyError):
 
-        cetak(nel('[white] Gagal masuk/login', style='green'))
+#        cetak(nel('[white] Gagal masuk/login', style='green'))
 
-        time.sleep(4)
+#        time.sleep(4)
 
-        os.remove('.kukis.log')
+#        os.remove('.kukis.log')
 
-        os.remove('.username')
+#        os.remove('.username')
 
-        exit()
+#        exit()
 
 
 
