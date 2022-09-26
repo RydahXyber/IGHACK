@@ -321,9 +321,34 @@ def login_kamu():
 
                 kuki=open('.kukis.log','w').write(cok)
 
-                user=open('.username','w').write(us);time.sleep(1)
-                exit()
+                user=open('.username','w').write(us)
 
+      try:
+
+         c=s.get("https://i.instagram.com/api/v1/users/web_profile_info/?username=%s"%(user),cookies={'cookie':kuki},headers={"user-agent":USN,"x-ig-app-id":'936619743392459'})
+
+         i=c.json()["data"]["user"]
+
+         nama=i["full_name"]
+
+         followers=i["edge_followed_by"]["count"]
+
+         following=i["edge_follow"]["count"]
+
+         external.append(f'{nama}|{followers}|{following}')
+
+     except  (ValueError,KeyError):
+
+         cetak(nel('[white] Gagal masuk/login', style='green'))
+
+         time.sleep(4)
+
+#        os.remove('.kukis.log')
+
+#        os.remove('.username')
+
+        exit()
+		
             elif loginpil == '2':
 
                 login()
