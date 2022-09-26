@@ -325,7 +325,7 @@ def login_kamu():
 		
         try:
 
-           c=s.get("https://i.instagram.com/api/v1/users/?username=%s"%(user)/info/',headers={"user-agent":USN,"x-ig-app-id":'936619743392459',"cookie":kuki}");login_kamu()
+           c=s.get("https://i.instagram.com/api/v1/users/?username=%s"%(user)/info/',headers={"user-agent":USN,"x-ig-app-id":'936619743392459',"cookie":kuki})
 
            i=c.json()["data"]["user"]
 
