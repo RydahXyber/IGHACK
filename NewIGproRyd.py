@@ -346,8 +346,6 @@ def login_kamu():
 #          os.remove('.kukis.log')
 
 #          os.remove('.username')
-
-        exit()
 		
             elif loginpil == '2':
 
