@@ -341,11 +341,11 @@ def login_kamu():
 
            cetak(nel('[white] Gagal masuk/login', style='green'))
 
-          time.sleep(4)
+           time.sleep(4)
 
-#         os.remove('.kukis.log')
+#          os.remove('.kukis.log')
 
-#         os.remove('.username')
+#          os.remove('.username')
 
         exit()
 		
