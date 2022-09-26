@@ -425,6 +425,19 @@ class instagram:
 
                 pass
     def menu():
+        try:
+
+        kuki=open('.kukis.log','r').read()
+
+        except IOError:
+
+        print('[×] Expired Cookies ')
+
+        time.sleep(5)
+
+        login_kamu()
+
+        os.system('clear')
 
             banner()
 
