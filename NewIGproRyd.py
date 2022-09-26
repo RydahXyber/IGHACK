@@ -347,7 +347,7 @@ def login_kamu():
 
 #          os.remove('.username')
 		
-          elif loginpil == '2':
+            elif loginpil == '2':
 
                 login()
 
