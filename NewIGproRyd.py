@@ -424,7 +424,7 @@ class instagram:
             except:
 
                 pass
-def menu():
+    def menu():
 
             banner()
 
@@ -445,7 +445,7 @@ def menu():
             cetak(nel(io, style='blue',title=f' • Menu •', subtitle='Ketik D untuk informasi script'))
 
 
-def BUG(self):
+    def BUG(self):
 
         donasi=f'''[white]- Hai selamat datang di script saya mungkin kamu adalah penguna baru !
 
