@@ -287,7 +287,7 @@ os.system('clear')
 
 
 
-    return external,user
+#    return external,user
 
 
 
