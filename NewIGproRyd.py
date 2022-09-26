@@ -424,7 +424,8 @@ class instagram:
             except:
 
                 pass
-def menu()
+def menu():
+
             banner()
 
             welcome=f'''  [{K}+{C}] Username   : {H}{self.username}                   {C}[{K}+{C}] Author : {H}{author}
