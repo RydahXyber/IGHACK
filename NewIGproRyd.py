@@ -430,7 +430,7 @@ class instagram:
 
            kuki=open('.kukis.log','r').read()
 
-           except IOError:
+        except IOError:
 
            print('[×] Expired Cookies ')
 
