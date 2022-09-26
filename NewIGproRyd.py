@@ -440,7 +440,7 @@ class instagram:
 
            os.system('clear')
 
-            banner()
+    banner()
 
             welcome=f'''  [{K}+{C}] Username   : {H}{self.username}                   {C}[{K}+{C}] Author : {H}{author}
 
